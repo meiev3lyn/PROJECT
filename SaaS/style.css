@@ -7,6 +7,7 @@ body {
     font-family: "DM sans", serif;
     box-sizing: border-box;
     overflow-x: hidden;
+
 }
 
 .top {
@@ -796,11 +797,12 @@ footer {
 }
 
 @media screen and (max-width:431px) {
+
     .top {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 400px;
+        width: 300px;
         height: 46px;
         background-color: rgb(0, 0, 0);
         gap: 10px;
@@ -827,7 +829,7 @@ footer {
     }
 
     nav .logo {
-        margin-right: 380px;
+        margin-right: 220px;
         width: 43px;
         height: 38px;
     }
@@ -835,7 +837,8 @@ footer {
     nav {
         background-image: url(./images/menu.png);
         background-repeat: no-repeat;
-        background-position: center;
+        background-position: right;
+        width: 279px;
     }
 
     .firstS .version {
@@ -925,14 +928,14 @@ footer {
 
     .visual {
         position: absolute;
-        width: 300px;
-        height: 300px;
-        margin-top: 320px;
-        margin-right: 930px;
+        width: 280px;
+        height: 280px;
+        margin-top: 350px;
+        margin-right: 1010px;
     }
 
     .logos {
-        width: 430px;
+        width: 370px;
         height: 110px;
     }
 
@@ -967,12 +970,12 @@ footer {
 
     .secondS {
         position: relative;
-        width: 431px;
+        width: 290px;
     }
 
     .secondS .product {
-        width: 320px;
-        height: 210px;
+        width: 250px;
+        height: 160px;
         margin-top: 20px;
     }
 
@@ -1034,14 +1037,15 @@ footer {
 
     .fourthS {
         position: relative;
-        width: 369px;
-        height: 180px;
+        width: 290px;
+        height: 190px;
     }
 
     .grid-container2 {
-        grid-template-columns: repeat(1, 350px);
-        max-width: 369px;
+        grid-template-columns: repeat(1, 260px);
+        max-width: 280px;
     }
+
     .grid-item2 img {
         width: 190px;
         height: 190px;
@@ -1070,7 +1074,7 @@ footer {
     }
 
     .grid-container3 {
-        grid-template-columns: repeat(3, 350px);
+        grid-template-columns: repeat(3, 260px);
         height: 700px;
         gap: 0px;
         column-gap: 10px;
@@ -1094,7 +1098,7 @@ footer {
     }
 
     .seventhS {
-        width: 369px;
+        width: 280px;
     }
 
     .sixthS .boost {
@@ -1106,14 +1110,14 @@ footer {
 
     .sixthS h2 {
         font-weight: 600;
-        font-size: 22px;
+        font-size: 20px;
         font-family: "switzer", sans serif;
-        line-height: 15px;
+        line-height: 20px;
         letter-spacing: -6%;
         text-align: center;
         width: 100px;
         height: 50px;
-        background: linear-gradient(180deg, #ecebebfb 50%, #00145454 100%);
+        background: linear-gradient(180deg, #ecebebe8 10%, #00145470 100%);
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
     }
@@ -1123,7 +1127,7 @@ footer {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 369px;
+        width: 300px;
         height: 75px;
     }
 
@@ -1136,7 +1140,7 @@ footer {
         letter-spacing: 1%;
         width: 130px;
         height: 90px;
-        margin-left: 200px;
+        margin-left: 190px;
         margin-bottom: 0px;
     }
 
@@ -1148,7 +1152,7 @@ footer {
         letter-spacing: 2%;
         width: 200px;
         height: 110px;
-        margin-left: 160px;
+        margin-left: 155px;
         margin-bottom: 0px;
 
     }
@@ -1173,7 +1177,7 @@ footer {
     }
 
     .eightS {
-        width: 369px;
+        width: 290px;
         height: 250px;
         gap: 0px;
     }
